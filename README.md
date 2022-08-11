@@ -5,6 +5,6 @@ Lucene similarity code were modified from [https://github.com/wimpykid26/Article
 
 ## how to
 - place any [supported Apache Tika files/documents](https://tika.apache.org/1.10/formats.html) in `raw` directory
-- run MultiTypeDocumentSimilarity
+- run MultiTypeDocumentSimilarity, change document index in `CosineSimilarity.distance(docVector[4], docVector[i])` as you want
 
 text data created under `data` directory, Lucene index created under `index` directory

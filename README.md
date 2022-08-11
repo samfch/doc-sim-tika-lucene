@@ -1,2 +1,10 @@
-# doc-sim-tika-lucene
-Document similarity of any supported files in Apache Tika and indexed using Apache Lucene
+# Multi type document similarity
+Document similarity of any supported files in Apache Tika and indexed using Apache Lucene. Calculate distance using cosine similarity
+
+Lucene similarity code were modified from [https://github.com/wimpykid26/ArticleSimilarity](https://github.com/wimpykid26/ArticleSimilarity) to use more recent libraries
+
+## how to
+- place any [supported Apache Tika files/documents](https://tika.apache.org/1.10/formats.html) in `raw` directory
+- run MultiTypeDocumentSimilarity
+
+text data created under `data` directory, Lucene index created under `index` directory
